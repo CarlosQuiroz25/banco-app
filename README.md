@@ -50,6 +50,7 @@ Los repositorios proporcionan acceso a las operaciones CRUD básicas para las en
    spring.datasource.password=tu_contraseña
    spring.jpa.hibernate.ddl-auto=update
 
+
 4. Ejecuta el proyecto:
   ```bash
   mvn spring-boot:run
