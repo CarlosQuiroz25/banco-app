@@ -45,10 +45,10 @@ Los repositorios proporcionan acceso a las operaciones CRUD básicas para las en
 
 2. Configura la base de datos en el archivo src/main/resources/application.properties. Ejemplo para MySQL:
    
-spring.datasource.url=jdbc:mysql://localhost:3306/banco_app
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
-spring.jpa.hibernate.ddl-auto=update
+   spring.datasource.url=jdbc:mysql://localhost:3306/banco_app
+   spring.datasource.username=tu_usuario
+   spring.datasource.password=tu_contraseña
+   spring.jpa.hibernate.ddl-auto=update
 
 4. Ejecuta el proyecto:
   ```bash
